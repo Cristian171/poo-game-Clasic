@@ -1,10 +1,10 @@
 # Juego Clásico en C con SDL: Implementación de POO Simulada
 
-Este es un proyecto de un **juego clásico** implementado en C utilizando la biblioteca SDL2 para gráficos, el cual sigue principios de **Programación Orientada a Objetos (POO)** simulada. Aunque C no soporta herencia de manera nativa, hemos usado **estructuras anidadas** para emular la herencia entre las clases de objetos en el juego.
+Este es un proyecto de un **juego clásico** implementado en C utilizando la biblioteca SDL2 para gráficos, el cual sigue principios de **Programación Orientada a Objetos (POO)** Aunque C no soporta herencia de manera nativa, hemos usado **estructuras anidadas** para emular la herencia entre las clases de objetos en el juego.
 
 ## Descripción del Proyecto
 
-El juego presenta un escenario con un **Paddle** (raqueta) que el jugador puede controlar y un **Boss** (jefe) que se mueve de manera horizontal. El objetivo del juego es interactuar con el Paddle y el Boss, implementando las físicas básicas como la gravedad y el movimiento del Paddle.
+El juego presenta un escenario con un **Paddle** que el jugador puede controlar y un **Boss** (jefe) que se mueve de manera horizontal. El objetivo del juego es interactuar con el Paddle y el Boss, implementando las físicas básicas como la gravedad y el movimiento del Paddle.
 
 ### Características del Juego
 
@@ -12,6 +12,7 @@ El juego presenta un escenario con un **Paddle** (raqueta) que el jugador puede 
 - **Boss (Jefe)**: El Boss se mueve de lado a lado en la pantalla. Tiene una cantidad de salud que disminuye a medida que interactúa con el Paddle. Cuando la salud llega a 0, el Boss deja de estar activo.
 - **Gravedad**: El Paddle se ve afectado por la gravedad, lo que hace que caiga después de un salto.
 - **Herencia Simulada en C**: Las propiedades comunes entre los objetos del juego se manejan mediante la estructura base `GameObject`, de la cual `Paddle` y `Boss` heredan.
+- **Sistema de puntuacion** suma puntos al recolectar objetos y matar al jefe final con mensaje en consola.
 
 ## Estructura del Proyecto
 
