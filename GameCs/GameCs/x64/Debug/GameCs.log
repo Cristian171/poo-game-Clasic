@@ -1,0 +1,13 @@
+﻿  paddle.c
+  boss.c
+  gameobject.c
+  Main.c
+  Generando código...
+C:\Users\USUARIO\OneDrive\Escritorio\sc-2420-eval-u1-Cristian171\GameClasic\GameCs\GameCs\Main.c(88,46): error C2039: "x": no es un miembro de "Paddle"
+C:\Users\USUARIO\OneDrive\Escritorio\sc-2420-eval-u1-Cristian171\GameClasic\GameCs\GameCs\Main.c(88,61): error C2039: "y": no es un miembro de "Paddle"
+C:\Users\USUARIO\OneDrive\Escritorio\sc-2420-eval-u1-Cristian171\GameClasic\GameCs\GameCs\Main.c(88,76): error C2039: "width": no es un miembro de "Paddle"
+C:\Users\USUARIO\OneDrive\Escritorio\sc-2420-eval-u1-Cristian171\GameClasic\GameCs\GameCs\Main.c(88,95): error C2039: "height": no es un miembro de "Paddle"
+C:\Users\USUARIO\OneDrive\Escritorio\sc-2420-eval-u1-Cristian171\GameClasic\GameCs\GameCs\Main.c(94,46): error C2039: "x": no es un miembro de "Boss"
+C:\Users\USUARIO\OneDrive\Escritorio\sc-2420-eval-u1-Cristian171\GameClasic\GameCs\GameCs\Main.c(94,59): error C2039: "y": no es un miembro de "Boss"
+C:\Users\USUARIO\OneDrive\Escritorio\sc-2420-eval-u1-Cristian171\GameClasic\GameCs\GameCs\Main.c(94,72): error C2039: "width": no es un miembro de "Boss"
+C:\Users\USUARIO\OneDrive\Escritorio\sc-2420-eval-u1-Cristian171\GameClasic\GameCs\GameCs\Main.c(94,89): error C2039: "height": no es un miembro de "Boss"
