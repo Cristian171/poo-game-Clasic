@@ -1,4 +1,4 @@
-# Juego Clásico en C con SDL: Implementación de POO Simulada
+# Juego Clásico en C con SDL: Implementación de POO
 
 Este es un proyecto de un **juego clásico** implementado en C utilizando la biblioteca SDL2 para gráficos, el cual sigue principios de **Programación Orientada a Objetos (POO)** Aunque C no soporta herencia de manera nativa, hemos usado **estructuras anidadas** para emular la herencia entre las clases de objetos en el juego.
 
@@ -26,7 +26,7 @@ El juego presenta un escenario con un **Paddle** que el jugador puede controlar 
 
 ### Estructuras y Funciones
 
-#### `GameObject` (Estructura Base)
+#### Diagrama UML
 ![UML Class Diagram](https://cdn.discordapp.com/attachments/762395755410620436/1295596955694796852/a1dd3d67-2c6d-447f-bb18-2525342f9d4c.webp?ex=670f3a31&is=670de8b1&hm=95b60051f4bed29dba358ede8169c67f455df863cfabf0404b15b6f0b3ba79fc&)
 
 
